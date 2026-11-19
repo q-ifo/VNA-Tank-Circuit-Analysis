@@ -1,2 +1,2 @@
 # VNA-Tank-Circuit-Analysis
-Characterizing a one-port LC tank circuit using data from NanoVNA.
+VNAs can measure the reflection coefficient, S11, trace of a one-port tank circuit and export them as .s1p files. This code will allow the user to calculate the resontant frequency, bandwidth, loaded/unloaded/external quality factors, and voltage gain of a tank circuit if given the .s1p data file. It also walks through a derivation of the math it uses to make these calculations.
